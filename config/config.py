@@ -98,7 +98,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/venombolteop/VenomMusic",
+    "https://github.com/SOURABH-PROFESSOR/VenomMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
@@ -111,11 +111,11 @@ GIT_TOKEN = getenv(
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/TomatoFist"
+    "SUPPORT_CHANNEL", "https://t.me/ALL_QUIZ_TAME"
 )
 
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/Itz_venom_family"
+    "SUPPORT_GROUP", "https://t.me/ALL_QUIZ_TAME"
 )  
 
 
@@ -132,7 +132,7 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/venombolteop/VenomMusic")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/SOURABH-PROFESSOR/VenomMusic")
 
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
